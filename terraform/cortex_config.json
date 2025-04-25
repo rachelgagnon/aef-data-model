@@ -1,0 +1,23 @@
+{
+    "deployDataMesh": true,
+    "projectIdSource": "aef-demo-4",
+    "projectIdTarget": "aef-demo-4",
+    "targetBucket": "aef-demo-4-cortex-tmp-bucket",
+    "location": "us-central1",
+    "DataMesh": {
+        "deployDescriptions": true,
+        "deployLakes": true,
+        "deployCatalog": true,
+        "deployACLs": true
+    },
+    "k9": {
+        "datasets": {
+            "processing": "K9_PROCESSING",
+            "reporting": "K9_REPORTING"
+        }
+    },
+    "VertexAI": {
+        "region": "REGION",
+        "processingDataset": "VERTEXDATASET"
+    }
+}

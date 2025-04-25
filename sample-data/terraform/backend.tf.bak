@@ -1,0 +1,6 @@
+terraform {
+  backend "gcs" {
+    bucket = "aef-aef-demo-4-tfe"
+    prefix = "<TERRAFORM_ENV>"
+  }
+}
